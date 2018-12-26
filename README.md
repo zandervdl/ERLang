@@ -11,3 +11,5 @@ the gpio.erl is a wonderful erlang implementation of a module for Raspberry Pi's
 the *test* and *energySys* are basically the same program, only difference is that *test* runs as a daemon.
 calling **test:start().** will start the program, **test:stop().** will stop it.
 
+*logging.erl* is a logging pogram. this way events will be logged and can be seen in the observer. don't forget to start the logger with **logging:start().**
+
